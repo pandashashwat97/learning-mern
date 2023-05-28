@@ -1,0 +1,21 @@
+.logo{
+    background-color: black;
+    padding: 20px;
+}
+.label{
+color: white;
+}
+.albumExample{
+    text-align: center;
+    padding: 50px
+}
+.card{
+    width: 30% ;
+    display: inline-block;
+}
+.image{
+    width: 100%;
+}
+.row{
+    display: inline-block;
+}
