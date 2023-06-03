@@ -231,3 +231,8 @@ ul{
     font-size: small;
     color: ghostwhite;
 }
+@media (width<=640px) {
+    body{
+        background-color: pink;
+    }
+}
