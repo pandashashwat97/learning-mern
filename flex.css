@@ -1,0 +1,30 @@
+.parent{
+    border: 1px solid black;
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+    justify-content: space-between;/* Along the x-axis when flex direction is row*/
+    align-items: center;/* Along the y-axis when flex direction is row*/
+    flex-wrap: wrap; /* to accomodate all the element*/
+}
+.parent .child1{
+    border: 1px solid;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    flex-grow: 2; /* twice the size of other two child*/
+    align-self: flex-start;
+    order: 7;
+}
+.parent .child2{
+    border: 1px solid;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+}
+.parent .child3{
+    border: 1px solid;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+}
